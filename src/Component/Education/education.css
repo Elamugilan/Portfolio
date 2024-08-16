@@ -1,0 +1,330 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .education {
+    padding: 100px 0px;
+    background-color: rgb(0, 0, 0);
+    width: auto !important;
+    height: max-content !important;
+  }
+  .education-heading {
+    font-size: 3.5rem !important;
+    text-align: center;
+    margin: -4rem 0 !important;
+    color: white;
+  }
+  .education h3 {
+    margin-bottom: 1rem !important;
+  }
+  .timeline-dot {
+    height: 21px !important;
+    width: 21px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgb(244, 40, 40), 0 0 50px rgb(255, 255, 255) !important;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 100px !important;
+  }
+  .timeline-items::before {
+    content: "";
+    position: absolute;
+    width: 2px !important;
+    height: 100% !important;
+    background-color: rgba(211, 0, 0, 0.762) !important;
+    left: calc(50% - 1px);
+    top: 100px !important;
+  }
+  .timeline-date {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: white;
+    margin: 95px 35px 30px !important;
+  }
+  .timeline-content {
+    background-color: rgba(197, 4, 4, 0.847) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    padding: 10px 0px !important;
+    border-radius: 2rem !important;
+    box-shadow: 0 0 10px green;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: auto !important;
+    margin-left: 4px !important;
+  }
+  .timeline-content-left {
+    background-color: rgba(197, 4, 4, 0.847) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    padding: 10px 0px !important;
+    border-radius: 2rem !important;
+    box-shadow: 0 0 10px green;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: auto !important;
+    margin-left: 15px !important;
+    position: relative;
+    left: -20px !important;
+  }
+
+  .timeline-content h3 {
+    font-size: 15px !important;
+    color: rgb(0, 0, 0) !important;
+    margin: 20px 20px 10px !important;
+    font-weight: 800 !important;
+  }
+  .timeline-content-left h3 {
+    font-size: 15px !important;
+    color: rgb(0, 0, 0) !important;
+    margin: 20px 20px 10px !important;
+    font-weight: 800 !important;
+  }
+  .timeline-content p {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important ;
+    font-weight: 400 !important;
+    text-align: bolder !important;
+  }
+  .timeline-content-left p {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important ;
+    font-weight: 400 !important;
+    text-align: bolder !important;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-items:nth-child(odd) {
+    padding-right: calc(40% + 30px) !important;
+    text-align: center !important;
+    position: relative !important;
+  }
+  .timeline-items:nth-child(even) {
+    padding-left: calc(40% + 30px) !important;
+    text-align: center !important;
+  }
+  .timeline-content:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 0 55px rgb(255, 255, 255) !important;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .education {
+    padding: 100px 0px;
+    background-color: rgb(0, 0, 0);
+    width: auto !important;
+    height: max-content !important;
+  }
+  .education-heading {
+    font-size: 3.5rem !important;
+    text-align: center;
+    margin: -4rem 0 !important;
+    color: white;
+  }
+  .education h3 {
+    margin-bottom: 1rem !important;
+  }
+  .timeline-dot {
+    height: 21px !important;
+    width: 21px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgb(244, 40, 40), 0 0 50px rgb(255, 255, 255) !important;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 100px !important;
+  }
+  .timeline-items::before {
+    content: "";
+    position: absolute;
+    width: 2px !important;
+    height: 100% !important;
+    background-color: rgba(211, 0, 0, 0.762) !important;
+    left: calc(50% - 1px);
+    top: 100px !important;
+  }
+  .timeline-date {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: white;
+    margin: 95px 70px 30px !important;
+  }
+  .timeline-content {
+    background-color: rgba(197, 4, 4, 0.847) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    padding: 10px 0px !important;
+    border-radius: 2rem !important;
+    box-shadow: 0 0 10px green;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: auto !important;
+    margin-left: 4px !important;
+  }
+  .timeline-content-left {
+    background-color: rgba(197, 4, 4, 0.847) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    padding: 10px 0px !important;
+    border-radius: 2rem !important;
+    box-shadow: 0 0 10px green;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: auto !important;
+    margin-left: 15px !important;
+    position: relative;
+    left: -20px !important;
+  }
+
+  .timeline-content h3 {
+    font-size: 15px !important;
+    color: rgb(0, 0, 0) !important;
+    margin: 20px 20px 10px !important;
+    font-weight: 800 !important;
+  }
+  .timeline-content-left h3 {
+    font-size: 15px !important;
+    color: rgb(0, 0, 0) !important;
+    margin: 20px 20px 10px !important;
+    font-weight: 800 !important;
+  }
+  .timeline-content p {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important ;
+    font-weight: 400 !important;
+    text-align: bolder !important;
+  }
+  .timeline-content-left p {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important ;
+    font-weight: 400 !important;
+    text-align: bolder !important;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-items:nth-child(odd) {
+    padding-right: calc(40% + 90px) !important;
+    text-align: center !important;
+    position: relative !important;
+  }
+  .timeline-items:nth-child(even) {
+    padding-left: calc(40% + 90px) !important;
+    text-align: center !important;
+  }
+  .timeline-content:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 0 55px rgb(255, 255, 255) !important;
+  }
+}
+.education-heading {
+  font-size: 8rem;
+  text-align: center;
+  margin: 5rem 0;
+  color: white;
+}
+.education {
+  padding: 100px 15px;
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  height: max-content;
+}
+.education h3 {
+  margin-bottom: 5rem;
+}
+.timeline-items {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.timeline-items::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: rgba(211, 0, 0, 0.762);
+  left: calc(50% - 1px);
+}
+.timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+.timeline-items:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+.timeline-items:nth-child(even) {
+  padding-left: calc(50% + 30px);
+  text-align: right;
+}
+.timeline-dot {
+  height: 21px;
+  width: 21px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 25px rgb(255, 255, 255), 0 0 50px lightblue;
+  position: absolute;
+  left: calc(49.8% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+.timeline-date {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin: 6px 0 15px;
+}
+.timeline-content {
+  background-color: rgb(203, 0, 0);
+  border: 3px solid rgb(255, 255, 255);
+  padding: 30px 50px;
+  border-radius: 4rem;
+  box-shadow: 0 0 10px green;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+.timeline-content-left {
+  background-color: rgb(203, 0, 0);
+  border: 3px solid rgb(255, 255, 255);
+  padding: 30px 50px;
+  border-radius: 4rem;
+  box-shadow: 0 0 10px green;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+.timeline-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 55px rgb(255, 255, 255);
+}
+.timeline-content h3 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 0 0 10px;
+  font-weight: 800;
+}
+.timeline-content-left:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 55px rgb(255, 255, 255);
+}
+.timeline-content-left h3 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 0 0 10px;
+  font-weight: 800;
+}
+.timeline-content-left p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  font-weight: bolder;
+}
+.timeline-content p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  font-weight: bolder;
+}
