@@ -32,12 +32,12 @@ function Contact() {
     setMessageError(!message);
 
     if (
-      firstname &&
-      lastname &&
-      email &&
-      emailPattern.test(email) &&
-      phoneNumber &&
-      phonePattern.test(phoneNumber) &&
+      firstname ||
+      lastname ||
+      email ||
+      emailPattern.test(email) ||
+      phoneNumber ||
+      phonePattern.test(phoneNumber) ||
       message
     ) {
       Swal.fire({
@@ -57,7 +57,7 @@ function Contact() {
             message: message,
           };
           axios
-            .post("http://localhost:3000/student/addStudentList", formData)
+            .post("http://localhost:3001/student/addStudentList", formData)
             .then((response) => {
               console.log(response.data); // Check response from backend
               // Reset form fields if needed
@@ -240,8 +240,8 @@ function Contact() {
             </Form>
           </Card.Body>
         </Card>
-        <Footer />
       </section>
+      <Footer />
     </>
   );
 }
