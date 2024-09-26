@@ -41,14 +41,18 @@ function Home() {
                   <br />
                   <br />I am fluent in classics like
                   <i>
-                    <b className="red"> C++, Javascript and Go. </b>
+                    <b className="red">
+                      React.js ,Node.js, Express.js, MongoDB, HTML, CSS,
+                      Javascript
+                    </b>
                   </i>
                   <br />
                   <br />
                   My field of Interest's are building new &nbsp;
                   <i>
-                    <b className="red">Web Technologies and Products </b> and
-                    also in areas related to <b className="red">Blockchain.</b>
+                    <b className="red">Web Technologies and React Pages </b> and
+                    also in areas related to{" "}
+                    <b className="red">Full-Stac Development</b>
                   </i>
                   <br />
                   <br />
@@ -62,7 +66,7 @@ function Home() {
                   </i>
                   &nbsp; like
                   <i>
-                    <b className="red"> React.js and Next.js</b>
+                    <b className="red"> React.js</b>
                   </i>
                 </p>
               </Col>

@@ -34,7 +34,7 @@ function About() {
                 </p>
                 <ul>
                   <li className="about-activity">
-                    <ImPointRight /> Playing Games
+                    <ImPointRight /> Creating React Web-pages
                   </li>
                   <li className="about-activity">
                     <ImPointRight /> Exploring

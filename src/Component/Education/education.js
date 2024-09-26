@@ -67,6 +67,22 @@ function Education() {
             </p>
           </div>
         </div>
+
+        <div className="timeline-items">
+          <div className="timeline-dot"> </div>
+          <div className="timeline-date">2023</div>
+          <div className="timeline-content-left">
+            <h3>Internship2</h3>
+            <p>
+              I done my Internship in Internship Studio Company and its a
+              startup Company where i learned
+              <i style={{ color: "black", fontWeight: "800" }}>
+                Data Analytics
+              </i>{" "}
+              course in period of 1 months
+            </p>
+          </div>
+        </div>
       </section>
       <Footer />
     </>
